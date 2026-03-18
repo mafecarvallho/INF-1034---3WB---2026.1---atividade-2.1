@@ -82,13 +82,15 @@ for _ in range(8):
 
 t.end_fill()
 
+# expiral
+
 t.speed(0) 
 
 t.pu()
-t.goto( 250 , - 150)
+t.goto(50,50)
 t.down() 
 
-for i in range(50):
+for i in range(20):
     t.forward(i * 2)  
     t.right(45)      
 
